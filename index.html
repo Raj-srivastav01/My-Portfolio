@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+    <a href="#" class="logo"><img src="logo.png" alt="Logo" width="50" height="50"></a>
+      <div class="menu-toggle">&#9776;</div>
+      <ul class="menu">
+        <li><a href="#about">  About</a></li>
+        <li><a href="#skills"> Skills</a></li>
+        <li><a href="#works">  Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="about-section" id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>Pursuing Bachelor's degree in Computer Science and have a strong foundation in
+        software development principles. Eager to apply academic knowledge and hands-on
+        project experience to contribute effectively to a dynamic development team. Adept
+        at coding, debugging, and collaborating on projects from concept to completion.
+        Quick learner with a commitment to staying current on emerging technologies.</p>
+    </div>
+    <div class="about-image">
+      <img src="avatar.jpg" alt="Profile Image">
+    </div>
+  </div>
+  <section class="skills-section" id="skills">
+    <div class="hr"></div>
+    <h2 class="section-heading">Skills</h2>
+    
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3>Languages</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Frameworks</h3>
+        <ul>
+          <li>Angular.js</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Responsive Design</h3>
+        <ul>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Databases</h3>
+        <ul>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio-section" id="works">
+    <div class="hr"></div>
+    <h1 class="section-heading">Works</h1>
+    
+    <div class="portfolio-container">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3 class="project-name">PGLife</h3>
+            <img src="project1.png" alt="PGLife Image" class="card-image">
+          </div>
+          <div class="flip-card-back">
+            <h3>PGLife</h3>
+            <p>
+              Developed a comprehensive PG recommendation website simplifying the search process for accommodation seekers.
+            </p>
+            <p>
+              Designed and implemented an intuitive interface with advanced search filters, interactive maps, and detailed property profiles.
+            </p>
+        
+          </div>
+        </div>
+      </div>
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3 class="project-name">Pneumonia Detector</h3>
+            <img src="project2.png" alt="Pneumonia Detector" class="card-image">
+          </div>
+          <div class="flip-card-back">
+            <h3>Pneumonia Detection Using CNN</h3>
+            <p>
+              Built a deep learning model to detect pneumonia from chest X-ray images.
+            </p>
+            <p>
+              Trained the model with a dataset of over 100,000 images and curated diverse medical images for high-quality inputs.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3 class="project-name">Assistant</h3>
+            <img src="project3.png" alt="Voice-Based Assistant Using Python Image" class="card-image">
+          </div>
+          <div class="flip-card-back">
+            <h3>Voice-Based Assistant Using Python</h3>
+            <p>
+              Engineered a Python-based voice assistant with speech recognition, NLP, and text-to-speech capabilities.
+            </p>
+            <p>
+              Implemented speech recognition to convert user voice commands into text and deployed task automation features.
+            </p>
+        
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3 class="project-name">Maitriseva</h3>
+            <img src="project4.png" alt="Maitriseva" class="card-image">
+          </div>
+          <div class="flip-card-back">
+            <h3>Maitriseva</h3>
+            <p>
+                User-friendly donation platform connecting donors with the underprivileged, emphasizing secure transactions and personalized giving options.
+            </p>
+            <p>
+                Ensured transparency and accountability by implementing features for tracking campaign progress and fund utilization, fostering trust within the community.
+            </p>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  
+  <div class="hr"></div>
+  
+  <section class="contact-section" id="contact">
+    <h2 class="section-heading">Contact</h2>
+    
+    <div class="contact-form">
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="social-icons">
+      <a href="https://twitter.com/raj_srivastav" target="_blank"><i class="fab fa-twitter" style="color: gold;"></i></a>
+      <a href="https://github.com/raj-srivastav01" target="_blank"><i class="fab fa-github" style="color: gold;"></i></a>
+      <a href="https://www.instagram.com/_.__raj22_.__" target="_blank"><i class="fab fa-instagram" style="color: gold;"></i></a>
+      <a href="https://www.linkedin.com/in/rajsri68" target="_blank"><i class="fab fa-linkedin" style="color: gold;"></i></a>
+      <!-- Add more social media links as needed -->
+    </div>
+    <div class="copyright">
+      <p>Copyright 2024 &copy; Raj Srivastav</p>
+    </div>
+  </footer>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
